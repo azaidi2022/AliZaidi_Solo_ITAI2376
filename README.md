@@ -246,3 +246,6 @@ This project demonstrates:
 * Agent-based reasoning loop
 
 Built as part of **ITAI 2376 Final Project**
+
+## Demo
+https://www.youtube.com/live/2HnR5R-Gcds?si=sTVwcZMLo1eLsPQB
