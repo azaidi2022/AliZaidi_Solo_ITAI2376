@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+pymupdf
+pandas
+numpy
+sentence-transformers
+faiss-cpu
+torch
+scikit-learn
+python-dotenv
