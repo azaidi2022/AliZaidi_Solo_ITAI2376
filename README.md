@@ -10,7 +10,7 @@ Ahkam Navigator is an AI-powered agent that answers Shia fiqh (Islamic law) ques
 
 ---
 
-## 🎯 Problem & Target Users
+## Problem & Target Users
 
 Many Shia Muslims struggle to quickly find reliable and accurate rulings (ahkam) from authoritative sources such as Ayatollah Sistani. Traditional lookup methods require manually searching through long PDFs, which is time-consuming and error-prone.
 
@@ -28,7 +28,7 @@ This project solves that problem by:
 
 ---
 
-## 🧠 Project Type
+## Project Type
 
 **Option A: Single AI Agent**
 
@@ -40,7 +40,7 @@ This project implements a **single intelligent agent** with:
 
 ---
 
-## 🏗️ Architecture Overview
+## Architecture Overview
 
 The system processes a user query through a FastAPI backend, where an agent controls reasoning and tool usage. It retrieves relevant rulings using semantic search and generates a structured response.
 
@@ -50,7 +50,7 @@ The system processes a user query through a FastAPI backend, where an agent cont
 
 ---
 
-## ⚙️ Technologies & Tools Used
+## Technologies & Tools Used
 
 ## Framework Choice
 
@@ -184,7 +184,7 @@ Does touching alcohol break wudhu?
 
 ---
 
-## ⚠️ Known Limitations
+## Known Limitations
 
 * Only supports **Ayatollah Sistani** dataset (no multi-marja comparison yet)
 * CNN model is implemented but not fully integrated into runtime
@@ -193,7 +193,7 @@ Does touching alcohol break wudhu?
 
 ---
 
-## 🎥 Demo
+## Demo
 
 
 
