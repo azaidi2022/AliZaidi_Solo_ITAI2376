@@ -1,1 +1,37 @@
-The process of making this AI agent really was quite fascinating and the end result has made me overlook the ups and downs I had on this journey. Firstly, I begin by talking about the various challenges I faced. The first issue I had (and the biggest one and probably the most time consuming one) was PDF processing issues. I initially used two pdfs someone had sent me a while back, one for Ayatollah Khamenei’s rulings and one for Ayatollah Sistani’s rulings. However, after trying multiple tools to successfully process these pdfs from tools that focused on text to tools that focused on images, I realized the real issue was with the pdfs. I then attempted to go to the actual websites of both Ayatollahs and find their rulings pdf there. I found Ayatollah Sistani’s rulings but was unable to even get access to Ayatollah Khamenei’s website. That is when I decided to only focus on Ayatollah Sistani’s rulings for this project. Another issue was that my agent wasn’t very good at wording its responses. It would even retrieve the wrong topics. However, I implemented keyword-based reranking, it became significantly better. Next, on the FastAPI website, it kept crashing because the model was loading inside of request. Thus, I fixed the issue by loading the model globally. Another challenge I faced was when .venv pushed accidentally. Github rejected it because it was a 200MB PyTorch file. I had to remove .git and restart the repo clean. Finally, although I mentioned initially that I was going to use LangChain framework, I ended up using a custom FastAPI agent as it offered more control, clearer logic, and more customizability. One thing that worked really well was the RAG retrieval system. I was impressed by how it was able to not only match keywords, but find semantically relevant rulings (of course it isn’t perfect). Another thing which I think worked well was the agent reasoning loop. It used a plan, act, observe, and respond system really well every time it was prompted. If I had another semester, I would continue with my initial plan and find a working pdf for the rulings of Ayatollah Khamenei, and compare and contrast the rulings of both Ayatollahs. This would not only inform the Shia public of the rulings but also give them a deeper understanding of Islamic Jurisprudence.
+# Reflection
+
+The process of making this AI agent really was quite fascinating and the end result has made me overlook the ups and downs I had on this journey. 
+
+---
+
+## Challenges Faced
+
+Firstly, I begin by talking about the various challenges I faced. The first issue I had (and the biggest one and probably the most time consuming one) was PDF processing issues. 
+
+I initially used two pdfs someone had sent me a while back, one for Ayatollah Khamenei’s rulings and one for Ayatollah Sistani’s rulings. However, after trying multiple tools to successfully process these pdfs from tools that focused on text to tools that focused on images, I realized the real issue was with the pdfs. 
+
+I then attempted to go to the actual websites of both Ayatollahs and find their rulings pdf there. I found Ayatollah Sistani’s rulings but was unable to even get access to Ayatollah Khamenei’s website. That is when I decided to only focus on Ayatollah Sistani’s rulings for this project. 
+
+Another issue was that my agent wasn’t very good at wording its responses. It would even retrieve the wrong topics. However, I implemented keyword-based reranking, it became significantly better. 
+
+Next, on the FastAPI website, it kept crashing because the model was loading inside of request. Thus, I fixed the issue by loading the model globally. 
+
+Another challenge I faced was when `.venv` pushed accidentally. Github rejected it because it was a 200MB PyTorch file. I had to remove `.git` and restart the repo clean. 
+
+Finally, although I mentioned initially that I was going to use LangChain framework, I ended up using a custom FastAPI agent as it offered more control, clearer logic, and more customizability. 
+
+---
+
+## What Worked Well
+
+One thing that worked really well was the RAG retrieval system. I was impressed by how it was able to not only match keywords, but find semantically relevant rulings (of course it isn’t perfect). 
+
+Another thing which I think worked well was the agent reasoning loop. It used a plan, act, observe, and respond system really well every time it was prompted. 
+
+---
+
+## Future Improvements
+
+If I had another semester, I would continue with my initial plan and find a working pdf for the rulings of Ayatollah Khamenei, and compare and contrast the rulings of both Ayatollahs. 
+
+This would not only inform the Shia public of the rulings but also give them a deeper understanding of Islamic Jurisprudence.
